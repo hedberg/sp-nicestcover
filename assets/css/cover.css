@@ -2,7 +2,7 @@ section { width: 800px; margin: 40px auto; text-align: center; }
 
 h1 {font-size:28px; font-weight:100; font-family:Futura, sans-serif; line-height: 1.3; text-transform: uppercase;}
 
-.sp-image { width: 265px; height: 265px; background-size: 100%; }
+.sp-image { width: 265px; height: 265px; -webkit-background-size: cover; background-size: cover;}
 .album {float:left; margin:20px;}
 #results {display:none;}
 #albumbox {width:620px; margin: 0 auto;}
