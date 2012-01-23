@@ -1,0 +1,14 @@
+section { width: 800px; margin: 40px auto; text-align: center; }
+
+h1 {font-size:28px; font-weight:100; font-family:Futura, sans-serif; line-height: 1.3; text-transform: uppercase;}
+
+.sp-image { width: 265px; height: 265px; background-size: 100%; }
+.album {float:left; margin:20px;}
+#results {display:none;}
+#albumbox {width:620px; margin: 0 auto;}
+header#top { display: block; width: 100%; height: 60px; margin-bottom: 24px; background: #333 url(../img/nicestcoverever.jpg) no-repeat top right; border-bottom:1px solid #444; }
+header#top h1 { display: none; }
+
+.icon { float: left; margin: 20px 10px;}
+span.percent { display:block; padding:8px;}
+.icon div { width: 125px; height: 125px; }

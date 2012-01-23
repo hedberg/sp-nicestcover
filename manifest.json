@@ -1,0 +1,27 @@
+{
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "assets/img/icon.png"
+	},
+	"AppName": {
+		"en": "Nicest Cover Ever"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"DefaultTabs": [
+		{
+			"arguments": "vote",
+			"title": {
+				"en": "Voting"
+			}
+		}, 
+		{
+			"arguments": "results",
+			"title": {
+				"en": "Results"
+			}
+		}
+	],
+	"RequiredInterface": "1"
+}

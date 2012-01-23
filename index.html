@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="sp://import/css/adam.css">
+	<link rel="stylesheet" href="sp://import/css/api.css">
+	<link rel="stylesheet" href="assets/css/cover.css">
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+</head>
+
+<body>
+	<header id="top"><h1>NICEST COVER EVER</h1></header>
+	<section id="vote">
+		<h1>Click on your favorite album cover</h1>
+		<div id="albumbox">
+			<div id="album1" class="album">
+				<div class="sp-image" style="background-image: none; "></div>
+			</div>
+			<div id="album2" class="album">
+				<div class="sp-image" style="background-image: none; "></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+	
+	<section id="results">
+		<h1>Top 10 album covers</h1>
+		<div id="topalbums">
+		</div>
+	</section>
+	
+	<script>
+		var sp = getSpotifyApi(1);
+		var cover = sp.require('assets/js/cover');
+		cover.init();
+	</script>
+</body>
+</html>
+
